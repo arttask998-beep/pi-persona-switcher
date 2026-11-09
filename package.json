@@ -1,0 +1,38 @@
+{
+  "name": "pi-persona-switcher",
+  "version": "1.2.2",
+  "description": "Hot-switchable personas and context compaction settings for Pi, with a standalone local control panel.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "persona",
+    "system-prompt",
+    "compaction",
+    "lm-studio"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "pi": {
+    "extensions": [
+      "./extension/persona-switcher.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "files": [
+    "extension",
+    "public",
+    "server.mjs",
+    "start-persona-panel.cmd",
+    "stop-persona-panel.cmd",
+    "deploy-extension.cmd",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
