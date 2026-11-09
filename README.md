@@ -10,7 +10,7 @@
 ## 0. 安装
 
 - 作为 Pi 包安装（发布到 npm 后）：`pi install npm:pi-persona-switcher`
-- 从 git 安装：`pi install git:https://github.com/<your-name>/pi-persona-switcher`
+- 从 git 安装：`pi install git:https://github.com/arttask998-beep/pi-persona-switcher`
 - 单独运行控制面板：克隆仓库后 `node server.mjs`，或 Windows 双击 `start-persona-panel.cmd`
 
 ---

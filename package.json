@@ -3,6 +3,14 @@
   "version": "1.2.2",
   "description": "Hot-switchable personas and context compaction settings for Pi, with a standalone local control panel.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arttask998-beep/pi-persona-switcher.git"
+  },
+  "homepage": "https://github.com/arttask998-beep/pi-persona-switcher",
+  "bugs": {
+    "url": "https://github.com/arttask998-beep/pi-persona-switcher/issues"
+  },
   "keywords": [
     "pi-package",
     "pi-extension",
